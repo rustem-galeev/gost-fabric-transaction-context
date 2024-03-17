@@ -2,7 +2,11 @@ module github.com/rustem-galeev/gost-fabric-transaction-context
 
 go 1.21
 
-require github.com/hyperledger/fabric-contract-api-go v1.2.2
+require (
+	github.com/hyperledger/fabric-contract-api-go v1.2.2
+	github.com/rustem-galeev/gost-crypto-algs/encrypt128 v0.0.0-20240317135538-7d563a792742
+	github.com/rustem-galeev/gost-crypto-algs/encrypt64 v0.0.0-20240317132901-b493b578fab8
+)
 
 require (
 	github.com/go-openapi/jsonpointer v0.20.0 // indirect
@@ -19,6 +23,7 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/rogpeppe/go-internal v1.11.0 // indirect
+	github.com/rustem-galeev/gost-crypto-algs/common v0.0.0-20240314175856-e8227903641e // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
